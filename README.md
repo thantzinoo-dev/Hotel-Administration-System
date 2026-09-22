@@ -8,77 +8,103 @@ The system supports public room browsing and booking, custom credentials authent
 
 ### 1. Public Guest Experience
 
-#### Public Landing Page & Room Showcase
-> Guests can browse real-time room availability, filter by room category and status, and view room specifications and nightly pricing.
+#### Home Screen
+> Public landing page displaying hotel highlights, tonight's availability statistics, and navigation options.
 
-![Public Landing Page](docs/screenshots/01-landing-page.png)
+![Home Screen](docs/screenshots/01.%20home_screen.png)
 
-#### Room Booking Modal
-> Interactive reservation modal allowing guests to input booking dates, guest contact information, and special notes with automated availability validation.
+#### Explore Rooms & Filter
+> Room browsing section with live category and status filtering dropdowns, capacity indicators, and nightly pricing.
 
-![Room Booking Modal](docs/screenshots/02-booking-modal.png)
+![Explore Rooms](docs/screenshots/02.%20explore%20rooms.png)
+
+#### Book a Room by Guest
+> Reservation dialog for public guests to enter their stay dates, contact information, and special requests.
+
+![Book a Room by Guest](docs/screenshots/03.%20book_a_room_by_guest.png)
 
 ---
 
-### 2. Authentication & Security
+### 2. Authentication
 
-#### Role-Based Login Screen
-> Secure credential authentication supporting Admin and Receptionist roles with demo login presets for quick evaluation.
+#### Admin & Receptionist Login
+> Unified login portal with quick-fill demo credentials for administrators and front desk staff.
 
-![Login Page](docs/screenshots/03-login-page.png)
+![Admin & Receptionist Login](docs/screenshots/04.%20admin_reception_login.png)
 
 ---
 
 ### 3. Admin Dashboard
 
-#### Room Inventory Management
-> Comprehensive room roster with status indicators, capacity, nightly rates, search and category filtering, and direct edit/delete controls.
+#### Room Management
+> Full hotel inventory list with real-time status badges, capacity, pricing, and administrative controls.
 
-![Admin Dashboard - Rooms](docs/screenshots/04-admin-dashboard-rooms.png)
+![Admin Dashboard - Rooms](docs/screenshots/05.%20admin_dashboard_rooms.png)
 
-#### Add / Edit Room Modal
-> Dedicated modal for administrators to configure room numbers, room types, pricing, capacity, and descriptions.
+#### Add a New Room
+> Modal form for configuring and publishing new room numbers, room categories, pricing, and descriptions.
 
-![Admin Dashboard - Add Room](docs/screenshots/05-admin-add-room-modal.png)
+![Add a New Room](docs/screenshots/06.%20add_a_new_room.png)
 
-#### Guest Management & Directory
-> Centralized guest CRM database displaying registered guest profiles, contact numbers, email addresses, and locations.
+#### Guest Directory
+> Centralized guest CRM database with searchable names, phone numbers, email addresses, and home cities.
 
-![Admin Dashboard - Guests](docs/screenshots/06-admin-dashboard-guests.png)
+![Guests Directory](docs/screenshots/07.%20guests.png)
 
-#### Booking Oversight
-> Complete oversight of all reservations across the hotel with status tracking (Confirmed, Checked In, Checked Out, Cancelled) and edit/cancellation actions.
+#### Add a Guest
+> Modal dialog to register a new guest profile directly from the administrative portal.
 
-![Admin Dashboard - Bookings](docs/screenshots/07-admin-dashboard-bookings.png)
+![Add a Guest](docs/screenshots/08.%20add%20a%20guest.png)
 
-#### Reports & Business Analytics
-> Financial and operational metrics including total revenue, occupancy rate, room type breakdown, date-range filtering, and visual charts powered by Recharts.
+#### Bookings Oversight
+> Comprehensive booking log showing guest information, allocated room, stay duration, total invoice, and status.
 
-![Admin Dashboard - Reports](docs/screenshots/08-admin-dashboard-reports.png)
+![Bookings Overview](docs/screenshots/09.%20bookings.png)
+
+#### Create a Booking for Selected Guest
+> Modal interface enabling administrators to create verified reservations for existing guests with automatic availability check.
+
+![Create a Booking for Selected Guest](docs/screenshots/10.%20create%20a%20booking%20for%20selected%20guest.png)
+
+#### Reports - Daily / Monthly Filter
+> Reporting controls to filter revenue and reservation analytics by date range and grouping frequency.
+
+![Report Filter](docs/screenshots/11.%20report_monthly_or_daily.png)
+
+#### Monthly Revenue & Analytics Reports
+> Interactive business analytics displaying revenue by room type, occupancy trends, and financial summaries.
+
+![Monthly Report](docs/screenshots/12.%20monthly_report.png)
 
 ---
 
-### 4. Receptionist / Front Desk Dashboard
+### 4. Staff / Receptionist Dashboard
 
-#### Daily Operations & Today's Arrivals
-> Front desk overview showing today's expected check-ins, currently in-house guests, and pending arrivals.
+#### Today's Check-ins
+> Front desk operational view tracking arrivals and check-ins scheduled for the current day.
 
-![Staff Dashboard - Today](docs/screenshots/09-staff-dashboard-today.png)
+![Staff Dashboard - Today](docs/screenshots/13.%20staff%20dashboard_today_tag.png)
 
-#### In-House Active Guests
-> Real-time list of guests currently residing in the hotel with quick check-out and payment collection triggers.
+#### Active In-House Guests
+> Real-time monitoring of guests currently checked into rooms with quick check-out and billing actions.
 
-![Staff Dashboard - Active Guests](docs/screenshots/10-staff-dashboard-active.png)
+![Staff Dashboard - Active](docs/screenshots/14.%20staff_dashboard_active_tag.png)
 
-#### Full Booking Operations
-> Comprehensive front desk view for all historical and upcoming bookings with status badges and quick action buttons.
+#### Pending Arrivals Tab
+> List of confirmed and upcoming reservations awaiting guest arrival.
 
-![Staff Dashboard - All Bookings](docs/screenshots/11-staff-dashboard-all.png)
+![Staff Dashboard - Pending](docs/screenshots/15.%20pending_tag_for_staff.png)
 
-#### Payment Processing Dialog
-> Instant payment recording modal allowing front desk staff to collect payments across multiple methods (Cash, Card, Bank Transfer, Mobile Pay).
+#### Record Payment
+> Fast payment processing dialog to record settlements via cash, card, mobile pay, or bank transfer.
 
-![Staff Dashboard - Payment Modal](docs/screenshots/12-staff-payment-modal.png)
+![Making a Payment](docs/screenshots/16.%20making%20a%20payment.png)
+
+#### All Bookings Roster
+> Front desk overview of all historical, current, and future reservations with status badges.
+
+![All Bookings](docs/screenshots/all_bookings.png)
+
 
 
 ## Included stack
