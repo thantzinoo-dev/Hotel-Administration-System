@@ -4,6 +4,83 @@ A complete full-stack hotel administration project built with Next.js App Router
 
 The system supports public room browsing and booking, custom credentials authentication, admin room/guest/booking management, receptionist check-in/check-out workflow, payments, and real database-backed reports.
 
+## Screenshots
+
+### 1. Public Guest Experience
+
+#### Public Landing Page & Room Showcase
+> Guests can browse real-time room availability, filter by room category and status, and view room specifications and nightly pricing.
+
+![Public Landing Page](docs/screenshots/01-landing-page.png)
+
+#### Room Booking Modal
+> Interactive reservation modal allowing guests to input booking dates, guest contact information, and special notes with automated availability validation.
+
+![Room Booking Modal](docs/screenshots/02-booking-modal.png)
+
+---
+
+### 2. Authentication & Security
+
+#### Role-Based Login Screen
+> Secure credential authentication supporting Admin and Receptionist roles with demo login presets for quick evaluation.
+
+![Login Page](docs/screenshots/03-login-page.png)
+
+---
+
+### 3. Admin Dashboard
+
+#### Room Inventory Management
+> Comprehensive room roster with status indicators, capacity, nightly rates, search and category filtering, and direct edit/delete controls.
+
+![Admin Dashboard - Rooms](docs/screenshots/04-admin-dashboard-rooms.png)
+
+#### Add / Edit Room Modal
+> Dedicated modal for administrators to configure room numbers, room types, pricing, capacity, and descriptions.
+
+![Admin Dashboard - Add Room](docs/screenshots/05-admin-add-room-modal.png)
+
+#### Guest Management & Directory
+> Centralized guest CRM database displaying registered guest profiles, contact numbers, email addresses, and locations.
+
+![Admin Dashboard - Guests](docs/screenshots/06-admin-dashboard-guests.png)
+
+#### Booking Oversight
+> Complete oversight of all reservations across the hotel with status tracking (Confirmed, Checked In, Checked Out, Cancelled) and edit/cancellation actions.
+
+![Admin Dashboard - Bookings](docs/screenshots/07-admin-dashboard-bookings.png)
+
+#### Reports & Business Analytics
+> Financial and operational metrics including total revenue, occupancy rate, room type breakdown, date-range filtering, and visual charts powered by Recharts.
+
+![Admin Dashboard - Reports](docs/screenshots/08-admin-dashboard-reports.png)
+
+---
+
+### 4. Receptionist / Front Desk Dashboard
+
+#### Daily Operations & Today's Arrivals
+> Front desk overview showing today's expected check-ins, currently in-house guests, and pending arrivals.
+
+![Staff Dashboard - Today](docs/screenshots/09-staff-dashboard-today.png)
+
+#### In-House Active Guests
+> Real-time list of guests currently residing in the hotel with quick check-out and payment collection triggers.
+
+![Staff Dashboard - Active Guests](docs/screenshots/10-staff-dashboard-active.png)
+
+#### Full Booking Operations
+> Comprehensive front desk view for all historical and upcoming bookings with status badges and quick action buttons.
+
+![Staff Dashboard - All Bookings](docs/screenshots/11-staff-dashboard-all.png)
+
+#### Payment Processing Dialog
+> Instant payment recording modal allowing front desk staff to collect payments across multiple methods (Cash, Card, Bank Transfer, Mobile Pay).
+
+![Staff Dashboard - Payment Modal](docs/screenshots/12-staff-payment-modal.png)
+
+
 ## Included stack
 
 - Next.js App Router
